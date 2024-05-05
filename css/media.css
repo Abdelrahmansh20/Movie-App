@@ -1,0 +1,88 @@
+/*nav bar style*/
+@media screen and (min-width:768px) {
+    .navbar ul {
+        display: flex;
+    }
+    .menu{
+        display: none;
+    
+    }
+}
+/*container*/
+@media screen and (max-width:991px) {
+    .container{
+        margin-inline: 0;
+    }
+    h3{
+        text-align: center;
+    }
+}
+
+/*home */
+@media screen and (max-width:991px) {
+    .home-sec .container{
+        flex-direction: column-reverse;
+    }
+    .home-sec .right-sec{
+        margin-bottom: 20px;
+    }
+    .home-sec .left-sec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .hero{
+        max-width: 100%;
+        height: 400px;
+    }
+
+}
+
+/*Chef */
+@media screen and (max-width:991px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .card img{
+        width: 100%;
+    }
+}
+/*Gallery */
+@media screen and (max-width:991px) {
+    .g-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .g-img img{
+        width: 100%;
+    }
+}
+/*Contact*/
+@media screen and (max-width:991px) {
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .col-1{
+        width: 100%;
+    }
+    .col-2{
+        width: 100%;
+    }
+.input-holder{
+    flex-direction: column;
+}
+}
+/*Footer*/
+@media screen and (max-width:991px) {
+    .footer .container{
+        display: flex;
+        flex-direction: column;
+    }
+}

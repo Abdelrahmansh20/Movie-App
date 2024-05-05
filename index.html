@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="icon" href="./images/logo (1).png"/>
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    
+<!-- side menu -->
+<div class="side-menu  min-vh-100 position-fixed d-flex top-0  ">
+    <div class="nav-tab d-flex  flex-column justify-content-between min-vh-100 ">
+    <div class="links-holder">
+        <ul class="links">
+            <li class="listItems animate__animated opacity-0 Now">Now playing</li>
+            <li class="listItems animate__animated opacity-0 Popular">Popular</li>
+            <li class="listItems animate__animated opacity-0 Top">Top Rated</li>
+            <li class="listItems animate__animated opacity-0 Trending">Trending</li>
+            <li class="listItems animate__animated opacity-0 Upcoming">Upcoming</li>
+            <li class="listItems animate__animated opacity-0" i><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+    
+    <div class="menu-footer  ">
+        <div class="icons d-flex flex-row gap-2">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-solid fa-globe"></i>
+        </div>
+        <p>Copyright © 2022 All Rights<br/> Reserved.</p>
+        <p>Created by <a href="https://github.com/Develekko" class="link-danger fw-bold page" target="_blank">Housam Ramadan</a>
+        </div></p>
+        
+</div>
+    <div class="nav-header flex-wrap d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+        <img class="logo" src="./images/logo (1).png">
+        <i class="fa-solid fa-bars openNav"></i>
+        <i class="fa-solid closeNav fa-x d-none"></i>
+
+
+        <div class="header-footer d-flex flex-column">
+            <i class="fa-solid fa-globe"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+    </div>
+    
+</div>
+
+
+<!-- search -->
+<input id="search" type="search" placeholder="Search" class="form-control w-50 mx-auto bg-transparent rounded-pill text-white shadow-none border-white px-3">
+
+<!-- main -->
+<div class="container">
+<div class="row g-4 mt-3 text-white myRow animate__animated">
+    
+    
+</div>
+</div>
+
+
+<!-- contacts -->
+
+<section id="contact" class="container text-white py-5">
+    <h2>Contact US</h2>
+    <form>
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <input type="text" required="" id="name" maxlength="37" class="form-control mt-4" placeholder="Enter Your Name">
+                <span class="error"></span>
+            </div>
+            <div class="col-md-6">
+                <input type="email" required="" id="email" class="form-control mt-4" placeholder="Enter Your Email">
+                <span class="error"></span>
+            </div>
+            <div class="col-md-6">
+                <input  required="" id="phone" class="form-control mt-4" placeholder="Enter Your Phone">
+                <span class="error"></span>
+            </div>
+            <div class="col-md-6">
+                <input type="number" required="" id="age" class="form-control mt-4" placeholder="Enter Your Age">
+                <span class="error"></span>
+            </div>
+            <div class="col-md-6 position-relative">
+                <input type="password" required="" id="password" class="form-control mt-4" placeholder="Enter Your Password">
+                <span class="error"></span>
+                <span class="showPass" style="opacity: 0; bottom: -20px;"><i data-show="show" class="fa-solid fa-eye-slash"></i></span>
+            </div>
+            <div class="col-md-6">
+                <input type="password" required="" id="repassword" class="form-control mt-4" placeholder="ReEnter Password">
+                <span class="error"></span>
+            </div>
+            <div class="col-md-12  mt-4">
+                <button type="submit" class="form-btn rounded-2 mb-3 animate__animated submit">Submit</button>
+            </div>
+        
+    </div></form>
+</section>
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
